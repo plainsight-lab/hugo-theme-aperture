@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# macOS system folders (sometimes created on network volumes)
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# Finder thumbnails
+.Thumbs.db
+
+# General
+*.log
+
+# Node / package managers
+node_modules/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Env files
+.env
+.env.*
+
+# Editors/IDEs
+.vscode/
+.idea/

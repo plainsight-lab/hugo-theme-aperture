@@ -1,0 +1,42 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Aperture Governance"
+theme = "hugo-theme-aperture"
+themesDir = "../../"
+[pagination]
+  pagerSize = 4
+
+[taxonomies]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  description = "A neutral structure for governance documentation, decisions, and policies."
+  footerNote = "Documentation content is maintained by the site owner."
+
+[menu]
+  [[menu.main]]
+    name = "Documentation"
+    url = "/docs/"
+    weight = 1
+  [[menu.main]]
+    name = "Policies"
+    url = "/policies/"
+    weight = 2
+  [[menu.main]]
+    name = "Updates"
+    url = "/updates/"
+    weight = 3
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2

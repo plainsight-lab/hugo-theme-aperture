@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Aperture Governance</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Aperture Governance</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update 2026-01</title>
+      <link>http://localhost:1313/updates/update-2026-01/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/update-2026-01/</guid>
+      <description>January governance publication inventory.</description>
+    </item>
+    <item>
+      <title>Decision Records</title>
+      <link>http://localhost:1313/docs/decision-records/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/decision-records/</guid>
+      <description>How decisions are captured, stored, and referenced.</description>
+    </item>
+    <item>
+      <title>Update 2025-12</title>
+      <link>http://localhost:1313/updates/update-2025-12/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/update-2025-12/</guid>
+      <description>Year-end governance review summary.</description>
+    </item>
+    <item>
+      <title>Roles and Responsibilities</title>
+      <link>http://localhost:1313/docs/roles/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/roles/</guid>
+      <description>Responsibilities for maintainers, reviewers, and record-keepers.</description>
+    </item>
+    <item>
+      <title>Review Process</title>
+      <link>http://localhost:1313/docs/process/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/process/</guid>
+      <description>Standard review and approval flow.</description>
+    </item>
+    <item>
+      <title>Update 2025-11</title>
+      <link>http://localhost:1313/updates/update-2025-11/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/update-2025-11/</guid>
+      <description>Monthly governance update and publication inventory.</description>
+    </item>
+    <item>
+      <title>Specification Summary</title>
+      <link>http://localhost:1313/docs/spec-summary/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/spec-summary/</guid>
+      <description>High-level requirements and invariants for compliance.</description>
+    </item>
+    <item>
+      <title>Governance Charter</title>
+      <link>http://localhost:1313/docs/charter/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/charter/</guid>
+      <description>Defines scope, responsibilities, and decision boundaries.</description>
+    </item>
+    <item>
+      <title>Policy Baseline</title>
+      <link>http://localhost:1313/policies/policy-baseline/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/policies/policy-baseline/</guid>
+      <description>Minimum baseline for policy publication and review cycles.</description>
+    </item>
+    <item>
+      <title>Record Retention</title>
+      <link>http://localhost:1313/policies/retention/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/policies/retention/</guid>
+      <description>Retention periods for published records.</description>
+    </item>
+  </channel>
+</rss>

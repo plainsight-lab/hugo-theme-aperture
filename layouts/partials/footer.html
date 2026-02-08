@@ -1,0 +1,8 @@
+<footer class="site-footer">
+  <div class="container stack">
+    <div class="meta">© {{ now.Year }} {{ .Site.Title }}</div>
+    {{ with .Site.Params.footerNote }}
+      <div class="meta">{{ . }}</div>
+    {{ end }}
+  </div>
+</footer>

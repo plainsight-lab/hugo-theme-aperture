@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on Aperture Governance</title>
+    <link>http://localhost:1313/updates/</link>
+    <description>Recent content in Updates on Aperture Governance</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update 2026-01</title>
+      <link>http://localhost:1313/updates/update-2026-01/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/update-2026-01/</guid>
+      <description>January governance publication inventory.</description>
+    </item>
+    <item>
+      <title>Update 2025-12</title>
+      <link>http://localhost:1313/updates/update-2025-12/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/update-2025-12/</guid>
+      <description>Year-end governance review summary.</description>
+    </item>
+    <item>
+      <title>Update 2025-11</title>
+      <link>http://localhost:1313/updates/update-2025-11/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/update-2025-11/</guid>
+      <description>Monthly governance update and publication inventory.</description>
+    </item>
+  </channel>
+</rss>

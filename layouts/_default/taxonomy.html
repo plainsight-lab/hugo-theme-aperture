@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ partial "breadcrumbs.html" . }}
+  <header class="stack">
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ $paginator := .Paginate .Pages }}
+  <div class="list-grid">
+    {{ range $paginator.Pages }}
+      <article class="card">
+        <h2 class="card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ with .Params.summary }}
+          <p class="card__meta">{{ . }}</p>
+        {{ end }}
+      </article>
+    {{ end }}
+  </div>
+  {{ partial "pagination.html" . }}
+{{ end }}

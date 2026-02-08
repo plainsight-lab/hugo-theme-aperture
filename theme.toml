@@ -1,0 +1,13 @@
+name = "Aperture"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Neutral, documentation-forward Hugo theme for institutional governance sites."
+homepage = ""
+min_version = "0.120.0"
+
+[author]
+  name = "PlainSight Labs"
+  homepage = ""
+
+[params]
+  description = ""
