@@ -61,7 +61,7 @@
     --shadow-sm: 0 1px 0 rgba(15, 17, 21, 0.08);
 
     --measure: 70ch;
-    --container: min(1200px, 92vw);
+    --container: min(1264px, 92vw);
     --toc-width: 260px;
     --header-height: 3.5rem;
 
