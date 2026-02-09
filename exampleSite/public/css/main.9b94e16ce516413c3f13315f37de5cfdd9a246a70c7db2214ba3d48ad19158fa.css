@@ -638,6 +638,7 @@
 
   .callout__inner {
     max-width: var(--measure);
+    margin-inline: auto;
     padding-inline: var(--page-gutter);
   }
 

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="A neutral structure for governance documentation, decisions, and policies.">
 <title>Review Process | Aperture Governance</title>
-<link rel="stylesheet" href="/css/main.f948e894ba853fe36ec061ae5ae5fb29b8ac1be3d6911e497117b821b5b9ae2f.css" integrity="sha256-&#43;UjolLqFP&#43;NuwGGuWuX7KbisG&#43;PWkR5JcRe4IbW5ri8=">
+<link rel="stylesheet" href="/css/main.630bfb3fb951606d196b481cdd70b8b627a47e14b626615651e04b3ebd37de66.css" integrity="sha256-Ywv7P7lRYG0Za0gc3XC4tiekfhS2JmFWUeBLPr033mY=">
 
   </head>
   <body>
@@ -13,10 +13,16 @@
     <header class="site-header">
   <div class="container site-header__inner">
     <p class="site-title"><a href="/">Aperture Governance</a></p>
-    <details class="nav-toggle">
+    <details class="nav-toggle" aria-label="Primary">
       <summary class="nav-toggle__summary">Menu</summary>
+      <nav class="nav nav--mobile">
+          <a href="/docs/">Documentation</a>
+          <a href="/policies/">Policies</a>
+          <a href="/updates/">Updates</a>
+          <a href="/tags/">Tags</a>
+      </nav>
     </details>
-    <nav class="nav" aria-label="Primary">
+    <nav class="nav nav--desktop" aria-label="Primary">
         <a href="/docs/">Documentation</a>
         <a href="/policies/">Policies</a>
         <a href="/updates/">Updates</a>
@@ -55,6 +61,23 @@
 <p>All submissions enter a queued review system with explicit timestamps.</p>
 <h2 id="review-window">Review Window</h2>
 <p>Review windows are defined in days, not business days.</p>
+<aside class="callout callout--note">
+    <div class="callout__title">Note</div>
+    <div class="callout__body">Neutral placeholder text for a standard in-column callout.</div>
+</aside>
+
+<aside class="callout callout--warning callout--wide">
+    <div class="callout__title">Warning</div>
+    <div class="callout__body">Neutral placeholder text for a wide breakout callout.</div>
+</aside>
+
+<aside class="callout callout--danger callout--bleed">
+  <div class="callout__inner">
+    <div class="callout__title">Critical</div>
+    <div class="callout__body">Neutral placeholder text for a full-bleed callout with constrained content.</div>
+  </div>
+</aside>
+
 <h2 id="decision">Decision</h2>
 <p>Decisions are recorded in a formal decision record.</p>
 

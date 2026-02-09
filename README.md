@@ -64,6 +64,24 @@ Partials live in `layouts/partials/`. To override, copy a partial into your site
 
 Hugo will prefer the site-level version over the theme version.
 
+## Callouts
+
+Use the `callout` shortcode for inline, wide, or full-bleed callouts. `wide=true` breaks out beyond the reading column while staying centered and bounded. `bleed=true` spans the viewport background while keeping inner content constrained. No JavaScript is required, and appearance is driven by CSS tokens.
+
+```md
+{{< callout type="note" title="Note" >}}
+Normal callout within reading column.
+{{< /callout >}}
+
+{{< callout type="warning" title="Warning" wide="true" >}}
+Wide callout (breakout) to emphasize a boundary condition.
+{{< /callout >}}
+
+{{< callout type="danger" title="Critical" bleed="true" >}}
+Full-bleed callout (viewport background), but content text remains constrained.
+{{< /callout >}}
+```
+
 ## Branding
 
 This theme intentionally ships with no logos, taglines, or brand-specific colors. Branding belongs at the site layer through overrides.

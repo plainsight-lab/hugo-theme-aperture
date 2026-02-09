@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="A neutral structure for governance documentation, decisions, and policies.">
 <title>Governance Charter | Aperture Governance</title>
-<link rel="stylesheet" href="/css/main.f948e894ba853fe36ec061ae5ae5fb29b8ac1be3d6911e497117b821b5b9ae2f.css" integrity="sha256-&#43;UjolLqFP&#43;NuwGGuWuX7KbisG&#43;PWkR5JcRe4IbW5ri8=">
+<link rel="stylesheet" href="/css/main.5763d163c57104098a0c1c322aa2101b88b7bc87a5f6a72539d052520e572118.css" integrity="sha256-V2PRY8VxBAmKDBwyKqIQG4i3vIel9qclOdBSUg5XIRg=">
 
   </head>
   <body>
@@ -13,10 +13,16 @@
     <header class="site-header">
   <div class="container site-header__inner">
     <p class="site-title"><a href="/">Aperture Governance</a></p>
-    <details class="nav-toggle">
+    <details class="nav-toggle" aria-label="Primary">
       <summary class="nav-toggle__summary">Menu</summary>
+      <nav class="nav nav--mobile">
+          <a href="/docs/">Documentation</a>
+          <a href="/policies/">Policies</a>
+          <a href="/updates/">Updates</a>
+          <a href="/tags/">Tags</a>
+      </nav>
     </details>
-    <nav class="nav" aria-label="Primary">
+    <nav class="nav nav--desktop" aria-label="Primary">
         <a href="/docs/">Documentation</a>
         <a href="/policies/">Policies</a>
         <a href="/updates/">Updates</a>
@@ -53,9 +59,11 @@
       <div class="prose">
         <h2 id="purpose">Purpose</h2>
 <p>This charter defines the structural intent, decision scope, and responsibilities for the governance surface.</p>
-<div class="callout callout--notice">
-  <strong>Notice.</strong> This document is a reference surface, not an enforcement mechanism.
-</div>
+<aside class="callout callout--info">
+    <div class="callout__title">Notice</div>
+    <div class="callout__body">This document is a reference surface, not an enforcement mechanism.</div>
+</aside>
+
 <h2 id="scope">Scope</h2>
 <p>The governance scope is limited to:</p>
 <ul>
@@ -64,9 +72,11 @@
 <li>Policy publication</li>
 </ul>
 <h2 id="boundaries">Boundaries</h2>
-<div class="callout callout--warning">
-  <strong>Warning.</strong> This charter does not define operational execution or staffing.
-</div>
+<aside class="callout callout--warning">
+    <div class="callout__title">Warning</div>
+    <div class="callout__body">This charter does not define operational execution or staffing.</div>
+</aside>
+
 <h2 id="decision-flow">Decision Flow</h2>
 <ol>
 <li>Proposal submitted</li>

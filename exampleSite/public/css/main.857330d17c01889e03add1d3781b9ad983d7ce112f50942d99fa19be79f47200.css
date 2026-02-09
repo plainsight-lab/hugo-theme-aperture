@@ -525,7 +525,6 @@
 
   .prose {
     max-width: var(--measure);
-    margin-inline: auto;
   }
 
   .prose > * + * {
@@ -622,7 +621,7 @@
   }
 
   .callout--wide {
-    width: min(var(--callout-wide-max), var(--container));
+    width: min(var(--callout-wide-max), calc(100vw - (2 * var(--page-gutter))));
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -638,14 +637,8 @@
 
   .callout__inner {
     max-width: var(--measure);
+    margin-inline: auto;
     padding-inline: var(--page-gutter);
-  }
-
-  @media (min-width: 1000px) {
-    .callout--wide,
-    .callout--bleed {
-      transform: translateX(calc(-50% + (var(--toc-width) + var(--space-lg)) / 2));
-    }
   }
 
   .tag {

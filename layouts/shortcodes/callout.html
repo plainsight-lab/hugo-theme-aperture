@@ -1,0 +1,21 @@
+{{- $typeParam := lower (default "note" (.Get "type")) -}}
+{{- $allowed := slice "note" "info" "warning" "danger" -}}
+{{- $type := cond (in $allowed $typeParam) $typeParam "note" -}}
+{{- $title := .Get "title" -}}
+{{- $bleed := eq (lower (default "false" (.Get "bleed"))) "true" -}}
+{{- $wide := and (eq (lower (default "false" (.Get "wide"))) "true") (not $bleed) -}}
+
+<aside class="callout callout--{{ $type }}{{ if $wide }} callout--wide{{ end }}{{ if $bleed }} callout--bleed{{ end }}">
+  {{- if $bleed }}
+  <div class="callout__inner">
+  {{- end }}
+    {{- with $title }}
+    <div class="callout__title">{{ . }}</div>
+    {{- end }}
+    <div class="callout__body">
+      {{- .Inner | markdownify -}}
+    </div>
+  {{- if $bleed }}
+  </div>
+  {{- end }}
+</aside>

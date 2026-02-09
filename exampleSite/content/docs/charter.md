@@ -10,9 +10,9 @@ topics: ["governance"]
 
 This charter defines the structural intent, decision scope, and responsibilities for the governance surface.
 
-<div class="callout callout--notice">
-  <strong>Notice.</strong> This document is a reference surface, not an enforcement mechanism.
-</div>
+{{< callout type="info" title="Notice" >}}
+This document is a reference surface, not an enforcement mechanism.
+{{< /callout >}}
 
 ## Scope
 
@@ -24,9 +24,9 @@ The governance scope is limited to:
 
 ## Boundaries
 
-<div class="callout callout--warning">
-  <strong>Warning.</strong> This charter does not define operational execution or staffing.
-</div>
+{{< callout type="warning" title="Warning" >}}
+This charter does not define operational execution or staffing.
+{{< /callout >}}
 
 ## Decision Flow
 

@@ -18,9 +18,9 @@ status: one of [draft, active, retired]
 review_window_days: integer
 ```
 
-<div class="callout callout--danger">
-  <strong>Danger.</strong> Missing required fields invalidates the submission.
-</div>
+{{< callout type="danger" title="Danger" >}}
+Missing required fields invalidates the submission.
+{{< /callout >}}
 
 ## Notes
 
