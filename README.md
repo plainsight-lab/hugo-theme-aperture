@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./plainsight-labs-logo-dark.svg" />
-    <img src="./plainsight-labs-logo.svg" alt="PlainSight Labs" width="160" />
+    <img src="./plainsight-labs-logo.svg" alt="PlainSight Lab" width="160" />
   </picture>
 </p>
 

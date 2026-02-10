@@ -1,6 +1,6 @@
 # NON_GOALS.md
 
-**PlainSight Labs — Public Hugo Theme Substrate**
+**PlainSight Lab — Public Hugo Theme Substrate**
 
 **Status:** Binding execution constraints
 **Audience:** Human contributors and automated agents
@@ -37,7 +37,7 @@ Themes must **not** contain:
 - Exact brand colors or hex values
 - Taglines, slogans, or mission statements
 - Brand-specific iconography
-- Institutional language tied to PlainSight Labs or any derivative entity
+- Institutional language tied to PlainSight Lab or any derivative entity
 
 Themes may support **semantic tokens** (e.g. `accent`, `warning`, `authority`) but must not assign
 brand-specific values.

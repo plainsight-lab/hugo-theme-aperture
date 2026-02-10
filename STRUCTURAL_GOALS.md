@@ -1,10 +1,10 @@
 # STRUCTURAL_GOALS.md
 
-**PlainSight Labs — Hugo Theme Structural Constraints**
+**PlainSight Lab — Hugo Theme Structural Constraints**
 
 **Status:** Binding
 **Audience:** Human contributors and automated agents
-**Scope:** All public Hugo themes stewarded by PlainSight Labs
+**Scope:** All public Hugo themes stewarded by PlainSight Lab
 
 ---
 

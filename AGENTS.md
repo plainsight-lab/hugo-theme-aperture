@@ -1,15 +1,15 @@
 # AGENTS.md  
-**PlainSight Labs — Hugo Theme Governance**
+**PlainSight Lab — Hugo Theme Governance**
 
 **Status:** Binding  
 **Audience:** Automated agents and human contributors  
-**Scope:** All public Hugo themes stewarded by PlainSight Labs
+**Scope:** All public Hugo themes stewarded by PlainSight Lab
 
 ---
 
 ## Purpose
 
-This file defines **mandatory execution constraints** for any agent or human modifying, extending, or generating code, templates, styles, or documentation for PlainSight Labs–governed Hugo themes.
+This file defines **mandatory execution constraints** for any agent or human modifying, extending, or generating code, templates, styles, or documentation for PlainSight Lab–governed Hugo themes.
 
 These themes are **infrastructure substrates**, not products, brands, or authorities.
 
@@ -103,7 +103,7 @@ Dependency is prohibited.
 
 Agents must NOT hardcode:
 
-- Colors tied to PlainSight Labs
+- Colors tied to PlainSight Lab
 - Logos or marks
 - Taglines or slogans
 - Authority-signaling language
@@ -173,7 +173,7 @@ If yes, the change is invalid.
 ## Final Constraint
 
 These themes are designed to outlive:
-- PlainSight Labs
+- PlainSight Lab
 - Any derivative entity
 - Any specific product
 - Any current governance phase

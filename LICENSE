@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 PlainSight Labs
+Copyright (c) 2026 PlainSight Lab
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,5 +23,5 @@ SOFTWARE.
 Asset Exception
 
 The files `plainsight-labs-logo.svg` and `plainsight-labs-logo-dark.svg` are
-excluded from the MIT License and are © PlainSight Labs, all rights reserved.
+excluded from the MIT License and are © PlainSight Lab, all rights reserved.
 These assets may not be used without permission.
